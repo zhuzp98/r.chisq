@@ -13,7 +13,7 @@ Note: The reduced chi-square statistic is used to show the goodness of model fit
 You can install the released version of r.chisq from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("r.chisq")
+devtools::install_github("zhuzp98/r.chisq")
 ```
 
 ## Basic Usage
