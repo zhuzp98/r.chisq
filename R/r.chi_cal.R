@@ -1,3 +1,15 @@
+#' Reduced chi-square of a model
+#'
+#' Get a number of reduced chi-square.
+#'
+#' @param y A list of numeric value the response in the model, can be a column of an existing tibble.
+#' @param model A fitted model either by linear fitting or non-linear fitting.
+#'
+#' @return A single numeric
+#'
+#' @export
+
+
 r.chi_cal <- function(y, model){
   if(!is.numeric(y)) {
     stop('I am so sorry, but this function only works for numeric response variable\n',
